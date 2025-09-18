@@ -1,0 +1,1 @@
+//foreachloop is commonly used app used to iterate array ,string and map,obj
