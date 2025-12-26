@@ -3,3 +3,5 @@ for (const numbers of array) {
     console.log(numbers)
 }
 console.log("loop ends")
+console.log(typeof array);
+// console.log(array.length);
