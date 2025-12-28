@@ -1,0 +1,80 @@
+1.Variables Types and it's Declaration is Done .
+
+2.Strings:Declaration
+    const string="Value"
+    2.1String  Functions :
+        There are many Functions avaible in the JS some of them is as follow 
+        
+        length - Returns the length of a string
+            Example: "hello".length // 5
+
+        charAt() - Returns character at specified index
+            Example: "hello".charAt(0) // 'h'
+
+        toUpperCase() - Converts to uppercase
+            Example: "hello".toUpperCase() // 'HELLO'
+
+        toLowerCase() - Converts to lowercase
+            Example: "HELLO".toLowerCase() // 'hello'
+
+        indexOf() - Returns index of first occurrence
+            Example: "hello".indexOf('l') // 2
+
+        slice() - Extracts part of string
+            Example: "hello".slice(1, 4) // 'ell' in that function the last value is excluded in execution 
+
+        substring() - Similar to slice
+            Example: "hello".substring(0, 3) // 'hel'
+
+        replace() - Replaces first match
+            Example: "hello".replace('l', 'x') // 'hexlo'
+
+        split() - Splits string into array
+            Example: "a,b,c".split(',') // ['a', 'b', 'c']
+
+        trim() - Removes whitespace
+            Example: "  hello  ".trim() // 'hello'
+        
+        And so more Cheak it out in the MDN Docs of JS
+
+
+        NUMBER AND MATHS IN JAVAScript 
+         Declaration of a number in javaScript const Number1=1
+         For store multiple kind of math values there are multiple data Types Some of them is as follow :
+            Integer - Whole numbers without decimals
+                Example: const num = 42 // 42
+
+            Float - Numbers with decimals
+                Example: const decimal = 3.14 // 3.14
+
+            BigInt - For integers larger than 2^53 - 1
+                Example: const big = 9007199254740992n // 9007199254740992n
+
+            Infinity - Represents infinity
+                Example: const inf = Infinity // Infinity
+
+            NaN - Not a Number
+                Example: const notNum = NaN // NaN
+
+            Octal - Base 8 numbers
+                Example: const octal = 0o10 // 8
+
+            Hexadecimal - Base 16 numbers
+                Example: const hex = 0xFF // 255
+
+            Binary - Base 2 numbers
+                Example: const binary = 0b1010 // 10
+
+            Exponential Notation - Scientific notation
+                Example: const exp = 1.5e2 // 150
+
+Some Number Functions that are very use full in nubmbers is 
+num=23.745685384
+ console.log(num.tofixed(2))
+ console.log(num.toPrecision(5))
+ console.log(num.tostring(16))
+
+ strnum=123hbwu//some date is mix with num to avoide errors we use following functions 
+ console.log(praiseInt(strnum))
+ if the value is in float with mixed string 
+ console.log(priseFloat(strint))
